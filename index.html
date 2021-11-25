@@ -1,41 +1,51 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html class="page" lang="ru">
 <head>
   <meta charset="utf-8">
   <title>Пролетарский, Ракитное, Красная Яруга</title>
+  <link href="normalize.css" rel="stylesheet" >
+  <link href="style.css" rel="stylesheet" >
 </head>
 
-<body>
+<body class="page-body">
 
-<header>
-  <nav>
-    <ul>
+<header class="main-header">
+  <nav class="main-navigation">
+
+
+
+<div class="main-header-bar">
+  <div class="main-navigation-wrapper">
+    <ul class="site-navigator">
       <li><a href="raspisanieavtobysov.html">Расписание автобусов</a></li>
       <li><a href="kontakti.html">Контакты</a></li>
       <li><a href="mesta.html">Места</a></li>
       <li><a href="novosti.html">Новости</a></li>
       <li><a href="index.html">Главная</a></li>
     </ul>
-  </nav>
+  </div>
+</div>
+</nav>
 </header>
-<main>
+
+<main class="container">
 <h1>Поселки Ракитянского и Краснояружского района.</h1>
-<section>
+<section class="features">
 <h2>Поселки</h2>
-  <ul>
-    <li>
+  <ul class="features-list">
+    <li class="feature-item">
       <h3>Пролетарский</h3>
       <p>Пролета́рский — посёлок городского типа в Ракитянском районе Белгородской области России, административный центр городского поселения «Посёлок Пролетарский». Население — 8967 человек (2020).</p>
   </li>
 
-  <li>
+  <li class="feature-item">
   <h3>Красная Яруга</h3>
   <p>
     Кра́сная Яру́га — посёлок городского типа в Белгородской области России, административный центр Краснояружского района и городского поселения «Посёлок Красная Яруга». Население — 7 885. человек (2020).
   </p>
   </li>
 
-  <li>
+  <li class="feature-item">
   <h3>Ракитное</h3>
   <p>
     Раки́тное — посёлок городского типа в Белгородской области России, административный центр Ракитянского района и городского поселения «Посёлок Ракитное». Население — 10 400 человек (2010).
@@ -46,48 +56,42 @@
 
 </section>
 
-<section>
+<div class="index-columns">
+
+<section class="news">
   <h2>Новости</h2>
-  <ul>
-    <li>
+  <ul class="news-list">
+    <li class="news-item">
       <p>Новость новости</p>
       <time datetime="2021-01-11">позавчера 11 января</time>
     </li>
-    <li>
+    <li class="news-item">
       <p>Новая новость новости</p>
       <time datetime="2021-01-12">в четвтер 12 января</time>
     </li>
   </ul>
-  <a href="novosti.html">Все новости</a>
+  <a class="button" href="novosti.html">Все новости</a>
 </section>
 
-<section>
+<section class="gallery">
   <h2>Фотогалерея</h2>
-  <figure>
+  <div class="gallery-container">
+  <figure class="gallery-content">
     <a href="#">
       <img src="img/1.jpg" width="200" height="164" alt="Вокзал">
     </a>
   </figure>
-  <button type="button" disabled>Назад</button>
-  <button type="button">Вперед</button>
+  <button class="button gallery-button gallery-button-back" type="button" disabled>Назад</button>
+  <button class="button gallery-button gallery-button-next" type="button">Вперед</button>
+</div>
 </section>
 
-<section>
-  <h2>Контактная информация</h2>
-  <p>
-    Сельский скайт <br>
-    Адрес: ул. Уличная, д1 <br>
-    телефон: <a href="tel:+78000000000">+7 800 000 00 00</a>
-  </p>
-  <p>
-    Время работы: 24/7.
-  </p>
-</section>
+</div>
 
 </main>
 
 <footer>
-<section>
+<section class="footer-contacts">
   <h2>Контактная информация</h2>
   <p>
     Сельский скайт <br>
@@ -95,7 +99,7 @@
     телефон: <a href="tel:+78000000000">+7 800 000 00 00</a>
   </p>
 </section>
-<section>
+<section class="footer-social">
 
   <h2>Мы в соц сетяж</h2>
   <ul>
@@ -103,7 +107,7 @@
   <li><a href="#">Facebook</a></li>
 </ul>
 </section>
-<p>
+<p class="footer-copyright">
   Разработано:
   <a href="#">Vasilenko agency</a>
 </p>
