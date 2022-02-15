@@ -1,46 +1,70 @@
+html,body{
+  height: 100%;
+  height: 100%;
+  font-family: 'Ubuntu', sans-serif;
+  width: 1090px;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+  h1 {
+    display: flex;
+    justify-content: center;
+  }
+
+
 .page {
    height: 100%;
 }
 
-.page-body {
+/*.page-body {
   display: flex;
   border: 2px solid yellow;
   flex-direction: column;
-}
+}*/
 
 .main-header {
-  display: flex;
-  border: 2px solid green;
+display: flex;
+width: 100%;
+ /* border: 2px solid green;
+  justify-content: space-between;*/
 }
 
 .site-navigator {
-  display: flex;
-  flex: 1;
-  flex-direction: row;
-  flex-wrap: nowrap;
+display: flex;
+justify-content: space-between;
+flex-direction: row;
+
+/*background-color: aqua;*/
 }
 
 .navi-point {
   display: flex;
-  flex-grow: 1;
+  text-transform: uppercase;
+  text-decoration-line: none;
+align-content: center;
+padding: 0px 50px 0px 50px;
+  
 }
 
-
-.container {
+/*.container {
 display: flex;
 border: 2px solid red;
 flex-direction: column;
-}
+justify-content: center;
+}*/
 
 .features {
 display: flex;
-border: 2px solid black;
+/*border: 2px solid black;*/
+align-content: center;
+flex-direction: row;
 }
 
 .features-list {
   display: flex;
   flex-direction: row;  
-  }
+}
 
 .feature-item {
 display: flex;
@@ -49,16 +73,74 @@ flex-direction: column;
 
 .index-columns {
   display: flex;
-  border: 2px solid blue;
+  /*border: 2px solid blue;*/
 }
 
 .footercontainer {
   display: flex;
-  border: 2px solid purple;
+ /* border: 2px solid purple;*/
 }
 
 .feature-h2 {
 display: flex;
-border: 10px solid brown;
+/*border: 10px solid brown;*/
 flex-direction: row;
+justify-content: center;
 }
+
+.index-columns {
+  display: flex;
+  /*background-color: aquamarine;*/
+  justify-content: center;
+}
+
+.news {
+  display: flex;
+  justify-content: center;
+  /*background-color: blueviolet;*/
+  flex-direction: column;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+@media (max-width: 600px) {
+.footercontainer {
+display: flex;
+flex-direction: column;
+width: auto;
+margin-left: auto;
+margin-right: auto;
+align-items: center;
+/*background-color: red;*/
+}
+.site-navigator {
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+}
+.main-header {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.features-list {
+display: flex;
+align-content: center;
+flex-direction: column;
+align-items: center;
+}
+.index-columns {
+display: flex;
+align-content: center;
+flex-direction: column;
+align-items: center;
+}
+
+}
+
+ 
