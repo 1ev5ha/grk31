@@ -1,74 +1,108 @@
 *{
   box-sizing: border-box;
+ 
 }
 
 .page-body {
-  font-family: 'Ubuntu', sans-serif;
-  display: flex;
-  /*background-color: yellowgreen;*/
- /* border: 3px solid green;*/
-  flex-direction: row;
-  justify-content: center;
+font-family: 'Ubuntu', sans-serif;
+display: flex;
+flex-direction: row;
+justify-content: center;
+
 }
 
 .mother-box {
- /* background-color: rgb(205, 50, 71);*/
- /* border: 3px solid rgb(37, 13, 143);*/
-  max-width: 1280px;
-  
-  
+max-width: 1280px; 
+background-color: rgba(155, 158, 158, 0.315);
+}
+.menu {
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+text-transform: uppercase;
+text-decoration: underline;
+padding: 1%;
 }
 
+.menu-item {
+display: flex;
+}
 
-
-
-.features {
-
-  
+.features {  
 }
 
 .features-list {
 display: flex;
-/*ackground-color: aqua;*/
 flex-direction: row;
+background-color: rgba(212, 212, 212, 0.548);
+list-style-type: none;
+}
 
+.feature-item {
+padding: 1%;
 }
 
 .index-columns {
-background-color: azure;
 display: flex;
 flex-direction: row;
+justify-content: center;
+align-items: center;
+}
+
+.footercontainer {
+display: flex;
+padding-top: 1%;
+flex-direction: row;
+
+justify-content: center;
+}
+.footercentr {
+
+align-content: center;
+}
+
+.footer-contacts {
 
 }
+.footer-social {
+  flex-direction: column;
+  justify-content: center;
+  
+}
+
+
+.footer-copyright {
+  flex-direction: column;
+  justify-content: center;
+  
+}
+
 
 @media (max-width: 320px) {
 .features-list {
-round-color: aqua;
+background-color: rgba(212, 212, 212, 0.548);
 flex-direction: column;
     } 
 .index-columns {
-background-color: azure;
 flex-direction: column;
       }
     }
     
 @media (max-width: 640px) {
 .features-list {
-background-color: aqua;
+background-color: rgba(212, 212, 212, 0.548);
 flex-direction: column;
  } 
 .index-columns {
-background-color: azure;
 flex-direction: column;
 }
 }
 @media (max-width: 1080px) {
   .features-list {
-  background-color: aqua;
+  background-color: rgba(212, 212, 212, 0.548);
   flex-direction: column;
 } 
   .index-columns {
-  background-color: azure;
   flex-direction: column;
 }
 }
