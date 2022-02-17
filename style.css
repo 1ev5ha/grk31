@@ -5,7 +5,7 @@
   /*background-color: gray;*/
   background-color: yellowgreen;
   flex-direction: column;
-  max-width: 1200px;
+  max-width: 1600px;
   box-sizing: border-box;
 }
 
@@ -56,4 +56,16 @@ flex-direction: column;
 background-color: azure;
 flex-direction: column;
 }
+
+@media (max-width: 1600px) {
+  .features-list {
+  background-color: aqua;
+  flex-direction: column;
+  } 
+  .index-columns {
+  background-color: azure;
+  flex-direction: column;
+  }
 }
+
+/*320 640 1280 1600 1680 1920 */
