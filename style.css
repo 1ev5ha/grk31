@@ -1,3 +1,7 @@
+h1 {
+
+}
+
 .page-body {
   font-family: 'Ubuntu', sans-serif;
   /*height: 1024px;*/
@@ -7,6 +11,7 @@
   flex-direction: column;
   max-width: 1600px;
   box-sizing: border-box;
+  align-items: center;
 }
 
 .features {
@@ -18,12 +23,14 @@
 display: flex;
 background-color: aqua;
 flex-direction: row;
+
 }
 
 .index-columns {
 background-color: azure;
 display: flex;
 flex-direction: row;
+
 }
 
 @media (max-width: 320px) {
@@ -35,8 +42,7 @@ flex-direction: column;
 background-color: azure;
 flex-direction: column;
       }
-  }
-
+    }
 @media (max-width: 640px) {
 .features-list {
 background-color: aqua;
@@ -47,6 +53,18 @@ background-color: azure;
 flex-direction: column;
 }
 }
+@media (max-width: 1080px) {
+  .features-list {
+  background-color: aqua;
+  flex-direction: column;
+} 
+  .index-columns {
+  background-color: azure;
+  flex-direction: column;
+}
+}
+
+
 @media (max-width: 1280px) {
 .features-list {
 background-color: aqua;
@@ -56,7 +74,7 @@ flex-direction: column;
 background-color: azure;
 flex-direction: column;
 }
-
+}
 @media (max-width: 1600px) {
   .features-list {
   background-color: aqua;
