@@ -5,6 +5,8 @@
   /*background-color: gray;*/
   background-color: yellowgreen;
   flex-direction: column;
+  max-width: 1200px;
+  box-sizing: border-box;
 }
 
 .features {
