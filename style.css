@@ -36,3 +36,24 @@ background-color: azure;
 flex-direction: column;
       }
   }
+
+@media (max-width: 640px) {
+.features-list {
+background-color: aqua;
+flex-direction: column;
+ } 
+.index-columns {
+background-color: azure;
+flex-direction: column;
+}
+}
+@media (max-width: 1280px) {
+.features-list {
+background-color: aqua;
+flex-direction: column;
+} 
+.index-columns {
+background-color: azure;
+flex-direction: column;
+}
+}
