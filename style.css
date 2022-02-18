@@ -67,15 +67,20 @@ flex-direction: row;
 justify-content: center;
 align-items: center;
 }
-
 .footercontainer {
 display: flex;
-
 flex-direction: column;
 align-items: center;
-
 }
-
+.footer-contacts {
+}
+.footer-social {
+}
+.footer-copyright {
+}
+.metrika {
+  display: flex;
+}
 
 /*--------------------------page 2---------------------------------*/
 
