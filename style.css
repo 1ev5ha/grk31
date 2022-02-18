@@ -14,28 +14,47 @@ justify-content: center;
 .mother-box {
 max-width: 1280px; 
 background-color: rgba(155, 158, 158, 0.315);
+justify-content: center;
 }
+
 .menu {
 display: flex;
 justify-content: space-around;
 flex-wrap: wrap;
 text-transform: uppercase;
-text-decoration: underline;
+
 padding: 1%;
 }
 
-.menu-item {
-display: flex;
+
+
+/*.link-m {  
+padding: 1%;
+  width: 200px; height: 30px; /* Размеры */
+ /* background: #fc0;  Цвет фона */
+  border: 1px solid rgb(7, 0, 0); /* Белая рамка */
+/* border-radius: 3px; Радиус скругления
+  
+  box-shadow: 0 0 0 1px rgba(92, 89, 89, 0.678), 
+       
+                0 0 0 3px rgba(173, 173, 172, 0.432);
+                align-items: center;
+                justify-content: center;
+}                   */
+.features {
+  margin-left: 3%;
+  margin-right: 3%;
+  border: 5px solid rebeccapurple;
 }
 
-.features {  
-}
+
 
 .features-list {
 display: flex;
 flex-direction: row;
-background-color: rgba(212, 212, 212, 0.548);
+background-color: rgb(255, 255, 255);
 list-style-type: none;
+
 }
 
 .feature-item {
@@ -65,45 +84,90 @@ align-content: center;
 
 }
 .footer-social {
-  flex-direction: column;
-  justify-content: center;
+flex-direction: column;
+justify-content: center;
   
 }
 
 
 .footer-copyright {
-  flex-direction: column;
-  justify-content: center;
+flex-direction: column;
+justify-content: center;
   
 }
 
+/*--------------------------page 2---------------------------------*/
+
+.rasp-cont {
+  display: flex;
+  margin-left: 3%;
+  margin-right: 3%;
+  
+
+}
+
+
+
+
+/*--------------------------media rec---------------------------------*/
 
 @media (max-width: 320px) {
 .features-list {
-background-color: rgba(212, 212, 212, 0.548);
+background-color: rgb(255, 255, 255);
 flex-direction: column;
     } 
 .index-columns {
 flex-direction: column;
       }
+.menu {
+display: flex;
+align-items: center;
+align-content: center;
+flex-direction: column;
+flex-wrap: wrap;
+text-transform: uppercase;
+padding: 1%;
+        }
     }
     
 @media (max-width: 640px) {
 .features-list {
-background-color: rgba(212, 212, 212, 0.548);
+background-color: rgb(255, 255, 255);
 flex-direction: column;
  } 
 .index-columns {
 flex-direction: column;
 }
+.menu {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-transform: uppercase;
+ 
+  padding: 1%;
+}
 }
 @media (max-width: 1080px) {
   .features-list {
-  background-color: rgba(212, 212, 212, 0.548);
+  background-color: rgb(255, 255, 255);
   flex-direction: column;
 } 
   .index-columns {
   flex-direction: column;
+}
+.menu {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-transform: uppercase;
+  
+  padding: 1%;
+  
+
 }
 }
 
