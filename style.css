@@ -118,13 +118,31 @@ flex-wrap: wrap;
 
 .rasp-cont {
   display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.rasp-box {
   margin-left: 3%;
   margin-right: 3%;
-  
-
 }
 
+/*--------------------------page 3---------------------------------*/
 
+.news-box {
+  width: 100%;
+  
+}
+
+.news-item {
+ 
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+.a-news {
+  color: black;
+  
+}
 
 
 /*--------------------------media rec---------------------------------*/
