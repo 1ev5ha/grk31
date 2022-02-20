@@ -1,6 +1,13 @@
 *{
   box-sizing: border-box;
- 
+}
+
+a {
+color: white;
+}
+
+.footer-text {
+  color: white;
 }
 
 .page-body {
@@ -8,57 +15,64 @@ font-family: 'Ubuntu', sans-serif;
 display: flex;
 flex-direction: row;
 justify-content: center;
+width: 100%;
 
 }
 
 .mother-box {
-width: 1280px; 
+width: 1024px; 
 background-color: rgba(155, 158, 158, 0.315);
 justify-content: center;
+box-shadow: 0 0 7px #666;
 }
 
 .menu {
+background-color: #1d1d1fa9;
 display: flex;
-justify-content: space-around;
+justify-content: space-evenly;
 flex-wrap: wrap;
 text-transform: uppercase;
 padding: 1%;
+width: 100%;
 
 }
 
+.link-m {
+font-size: 12px;
+}
 
-
-/*.link-m {  
-padding: 1%;
-  width: 200px; height: 30px; /* Размеры */
- /* background: #fc0;  Цвет фона */
-  border: 1px solid rgb(7, 0, 0); /* Белая рамка */
-/* border-radius: 3px; Радиус скругления
-  
-  box-shadow: 0 0 0 1px rgba(92, 89, 89, 0.678), 
-       
-                0 0 0 3px rgba(173, 173, 172, 0.432);
-                align-items: center;
-                justify-content: center;
-}                   */
 .features {
-  margin-left: 3%;
-  margin-right: 3%;
-  border: 5px solid rebeccapurple;
+  display: flex;
+  width: 100%;
+  
+  align-items: center;
+  justify-content: center;
+  
 }
 
-
+.img {
+  display: flex;
+  width: 300px;
+  height: 100px;
+}
 
 .features-list {
 display: flex;
+width: 100%;
 flex-direction: row;
 background-color: rgb(255, 255, 255);
-list-style-type: square;
+list-style: none;
+
 
 }
 
 .feature-item {
-padding: 1%;
+  display: flex;
+
+align-items: center;
+justify-content: center;
+flex-direction: column;
+max-width: 310px;
 }
 
 .index-columns {
@@ -66,20 +80,38 @@ display: flex;
 flex-direction: row;
 justify-content: center;
 align-items: center;
+
 }
 .footercontainer {
 display: flex;
-flex-direction: column;
-align-items: center;
+flex-direction: row;
+justify-content: space-evenly;
+align-items: baseline;
+background-color: #1d1d1fa9;
+flex-wrap: wrap;
+
 }
 .footer-contacts {
+
+
 }
 .footer-social {
+
 }
 .footer-copyright {
+  display: flex;
+  flex-direction: column;
+ 
+  color: white;
 }
 .metrika {
+  margin-top: 1%;
   display: flex;
+}
+
+.news {
+ 
+  width: 50%;
 }
 
 /*--------------------------page 2---------------------------------*/
@@ -114,8 +146,21 @@ flex-wrap: wrap;
 text-transform: uppercase;
 
         }
-    }
-    
+        .footercontainer {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-evenly;
+          align-items: center;
+          background-color: #1d1d1fa9;
+          flex-wrap: wrap;
+          }
+
+          .news {
+            
+            width: 100%;
+          }
+
+        }   
 @media (max-width: 640px) {
 .features-list {
 background-color: rgb(255, 255, 255);
@@ -132,10 +177,18 @@ flex-direction: column;
   flex-direction: column;
   flex-wrap: wrap;
   text-transform: uppercase;
-  
   padding: 1%;
 }
+.news {
+  
+  width: 100%;
 }
+
+}
+
+
+
+
 @media (max-width: 1080px) {
   .features-list {
   background-color: rgb(255, 255, 255);
