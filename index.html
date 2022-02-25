@@ -4,9 +4,9 @@
 
 <meta charset="utf-8">
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
+<!--<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">-->
 <link href="favicon.ico" rel="shortcut icon">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,23 +16,32 @@
 <title>Пролетарский (Готня), Ракитное, Красная Яруга</title>
 <link href="normalize.css" rel="stylesheet" >
 <link href="style.css" rel="stylesheet" >
+<link href="styles.css" rel="stylesheet" >
   
 </style>
 
 </head>
 
 <body class="page-body">
-<div class="mother-box">
-
-<header>
-
-<nav class="menu">
-<div class="link-m"><a href="raspisanieavtobysov.html">Расп. автобусов</a></div>
-<div class="link-m"><a href="#">Контакты</a></div>
-<div class="link-m"><a href="#">Места</a></div>
-<div class="link-m"><a href="novosti.html">Новости</a></div>
-<div class="link-m"><a href="index.html">Главная</a></div>
-</nav>
+ 
+    <div class="wrapper">
+        
+        <header class="header">
+            <div class="header__container">
+                <a href="index.html" class="header__logo"><img src="./img/logo.svg" /></a>
+                <div class="header__menu menu">
+                    <div class="menu__icon">
+                        <span></span>
+                    </div>
+                    <nav class="menu__body">
+                        <ul class="menu__list">
+                            <li><a data-goto=".page__section_1" href="raspisanieavtobysov.html" class="menu__link">Расписание Автобусов</a></li>
+                            <li><a data-goto=".page__section_2" href="novosti.html" class="menu__link">Новости</a></li>
+                            <li><a data-goto=".page__section_3" href="index.html" class="menu__link">На главную</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
 </header>
 
 <main>
@@ -133,7 +142,7 @@
 </ul>
 </section>
 <p class="footer-copyright">Разработано:<a href="#"> Mandalorian {DEV}</a></p>
-
+<script src="./js/script.js"></script>
 <!--Счетчик ЯМетрики--->
 <div class="metrika">
   <!-- Yandex.Metrika informer -->
