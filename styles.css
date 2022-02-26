@@ -95,10 +95,14 @@ min-height: 70px; /*задан минимальный размер плашки 
 .menu__list > li { /*обращение к ЛИ первого уровня*/
     position: relative;
     margin: 0px 0px 0px 20px;
+    list-style-type: none; /*убираем маркеры*/
+    
 }
 .menu__link { /*ссылки основоного меню*/
     color: #fff;
     font-size: 18px;
+    text-decoration: none; /*убираем подчеркивания*/
+    text-transform: uppercase;
 }
 .menu__link:hover { /*фича*/
     text-decoration: underline;
@@ -110,6 +114,7 @@ min-height: 70px; /*задан минимальный размер плашки 
     background-color: black;
     padding: 15px;
     min-width: 200px;
+    list-style-type: none; /*убираем маркеры*/
 }
 .menu__sub-list li { /*отступы в саб меню*/
     margin: 0px 0px 10px 0px;
