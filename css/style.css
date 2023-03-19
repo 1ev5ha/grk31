@@ -19,7 +19,6 @@ text-transform: uppercase;
 }
 a {
 text-transform: uppercase;
-
 }
 li {
 list-style-type: none;
@@ -30,8 +29,7 @@ margin: 0 10px 0 10px;
 display: flex;
 flex-wrap: wrap;
 padding: 0;
-margin: 15px auto 15px auto;
-
+justify-content: center;
 }
 .link_box{
 border: 1px solid red;
@@ -45,9 +43,16 @@ flex-direction: column;
 .main_wrapper {
 flex: 1 1 auto;
 }
+.header_wrapper{
+background-color: black;
+color: white;	
+width: 100%;
+}
+.a_wrapper {
+color: white;
+}
 .main_wrapper,
-.footer_wrapper,
-.header_wrapper {
+.footer_wrapper{
 background-color: white;
 max-width: 1140px;
 width: 100%;
