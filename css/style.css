@@ -78,7 +78,10 @@ margin: 10px;
 text-align: center;
 
 }
-
+.wellcome_img {
+max-width: 400px;
+width: calc(100vw - 10%);	
+}
 
 
 
