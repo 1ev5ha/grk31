@@ -30,7 +30,33 @@ max-width: 400px;
 width: calc(100vw - 10%);
 }
 
-/*---------------------------*/
+/*-----------ФУТЕР----------------*/
+.footer_wrapper {
+max-width: 1140px;
+width: 100%;
+margin-left: auto;
+margin-right: auto;
+}
+
+.footer_p_wrapper{
+margin: 10px;
+text-align: center;
+padding-bottom: 40px;
+}
+.line {
+border-bottom: 1px solid white; /* Параметры линии */
+margin: 10px 0 10px 0;
+	}
+.social_ico_wrapper {
+display: flex;
+justify-content: center;
+}
+.social-ico {
+margin: 15px;
+}
+/*-----------ФУТЕР----------------*/
+
+
 /*---------------------------*/
 
 .page {
