@@ -79,6 +79,8 @@ margin: 15px;
 .page__title {
     font-size: 40px;
     margin: 0px 0px 20px 0px;
+    padding: 30px;
+    margin: 0px auto;
 }
 .page__text {
     font-size: 16px;
