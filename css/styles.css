@@ -19,7 +19,16 @@ body._lock {
     overflow: hidden;
 }
 
+.logo {
 
+/*  border-radius: 50%;
+  background-color: chartreuse;*/
+  position: relative;
+  z-index: 5;
+  width: 40px;
+  height: 50px;
+/*  width: calc(100vw - 90%);*/
+}
 .wrapper {
     min-height: 100%;
 }
@@ -110,14 +119,14 @@ align-items: center;
 justify-content: space-between;
 min-height: 70px; /*задан минимальный размер плашки меню*/
 }
-.header__logo {
+/*.header__logo {
     border-radius: 50%;
     background-color: chartreuse;
     position: relative;
     z-index: 5;
     width: 40px;
     height: 40px;
-}
+}*/
 
 .header__menu {}
 
