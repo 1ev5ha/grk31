@@ -46,15 +46,18 @@ pointer-events: none;
 }
 
 /*-----------  фото в справочной  ------------*/
-
+.foto_box {
+display: flex;
+}
 .info_img {
 max-width: 400px;
 width: calc(100vw - 10%);
 display: block;
-margin-left: auto;
-margin-right: auto;
+margin: 0 auto;
 pointer-events: none;
+border: 3px solid white;
 }
+
 
 /*-----------ФУТЕР----------------*/
 .footer_wrapper {
@@ -348,6 +351,8 @@ body._touch .menu__list > li._active .menu__arrow { /*анимация треу�
          color: black;
      }
 
+
+
   /*------тут про шрифты----------*/
   h1, h2 {
   font-size: calc( (100vw - 10rem)/25 + 1rem);
@@ -365,4 +370,18 @@ font-size: calc( (100vw - 5rem)/25 + 1rem);
 max-width: 400px;
 width: calc(100vw - 20%);
 }
+
+
+/*------------тут про фото в мобильных выерсиях-----------*/
+.foto_box {
+display: flex;
+flex-direction: column;
+}
+.info_img {
+max-width: 250px;
+width: calc(100vw - 10%);
+display: block;
+margin: 0 auto;
+pointer-events: none;
+border: 3px solid white;
 }
