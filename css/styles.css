@@ -21,7 +21,9 @@ font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 body._lock {
 overflow: hidden;
 }
-
+.warning {
+	color: yellow;
+}
 .logo {
 /*  border-radius: 50%;
 background-color: chartreuse;*/
@@ -52,7 +54,6 @@ display: flex;
 .info_img {
 max-width: 400px;
 width: calc(100vw - 10%);
-display: block;
 margin: 0 auto;
 pointer-events: none;
 border: 3px solid white;
@@ -166,12 +167,13 @@ min-height: 70px; /*задан минимальный размер плашки 
 }
 .menu__link { /*ссылки основоного меню*/
     color: #fff;
-    font-size: 18px;
+    font-size: 14px;
     text-decoration: none; /*убираем подчеркивания*/
     text-transform: uppercase;
 }
 .menu__link:hover { /*фича*/
     text-decoration: underline;
+		color: yellow;
 }
 .menu__sub-list { /*выпадающее саб меню*/
     position: absolute;
@@ -337,7 +339,7 @@ body._touch .menu__list > li._active .menu__arrow { /*анимация треу�
      }
 
      .menu__link {
-         font-size: 24px;
+         font-size: 14px;
      }
      .menu__sub-list {
          position: relative;
