@@ -3,4 +3,4 @@
 Пока собираю статистику, смотрю результаты. <br>
 
 # grk31
-https://vargur31rus.github.io/grk31/ <br>
+https://1ev5ha.github.io/grk31/ <br>
