@@ -13,7 +13,7 @@ gtag('config', 'G-QF4KKCHQJN');
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="css/style.css">
 <title>Готня, Красня-Яруга, Ракитное</title>
 <meta name="description" content="На страницах данного сайта можно коснуться истории и быта трех поселков Ракитянского и Краснояружского района.
 Узнать расписание автобусов или вызвать такси, посмотреть доступные услуги местных специалистов. В скором времени будет добавлен виджет погоды.">
@@ -49,86 +49,61 @@ gtag('config', 'G-QF4KKCHQJN');
 
 </head>
 <body>
-    <div class="wrapper">
-        <header class="header">
-            <div class="header__container">
-                <a href="#" class="header__logo">
-                  <img class="logo" src="./img/social/rakitnoe.gif" alt="герб Ракитянский район" draggable="false">
-                </a>
-                <div class="header__menu menu">
-                    <div class="menu__icon">
-                        <span>
-                        </span>
-                    </div>
-                    <nav class="menu__body">
-                        <ul class="menu__list">
-                            <li><a data-goto=".page__section_1" href="#" class="menu__link">Пролетарский</a></li>
-                            <li><a data-goto=".page__section_2" href="#" class="menu__link">Красня Яруга</a></li>
-                            <li><a data-goto=".page__section_3" href="#" class="menu__link">Ракитное</a></li>
-                            <li><a href="./raspisanie.html" class="menu__link">Расписание автобусов</a></li>
-                            <li><a href="./spravka_info.html" class="menu__link">Справочная инфо</a></li>
-                            <li><a href="./nedvizimost.html" class="menu__link">Недвижимость</a></li>
-                          </ul>
-                    </nav>
-                </div>
-            </div>
-        </header>
-        <main class="page">
+	<div class="body-wraper">
+	<header class="header">
+		<div class="container header__container">
+			<a href="#" class="logo">
+				<img class="logo__img" src="img/rakitnoe.gif" alt="Логотип">
+			</a>
+			<button class="header__burger-btn" id="burger">
+				<span></span>
+				<span></span>
+				<span></span>
+				
+			</button>
+			<nav class="menu" id="menu">
+				<ul class="menu__list">
+					<li class="menu__item">
+						<a class="menu__link" href="proletarski.html">Пролетарский
+						</a>
+					</li>
+					<li class="menu__item">
+						<a class="menu__link" href="rakitnoe.html">Ракитное
+						</a>
+					</li>
+					<li class="menu__item">
+						<a class="menu__link" href="krasnayayaruga.html">Красная Яруга
+						</a>
+					</li>
+					<li class="menu__item">
+						<a class="menu__link" href="raspisanie.html">Расписание
+						</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<main class="main_w">
+		<section>
+			<div class="container">
+				<h1 align="center">Поселки Ракитянского и Краснояружского района.</h1>
+				<p>На страницах данного сайта можно коснуться истории и быта трех поселков Ракитянского и Краснояружского района. Узнать расписание автобусов или вызвать такси, посмотреть доступные услуги местных специалистов. </p>
 
-              <section class="page__section page__section_1">
-                <h1 class="page__title" align="center">Поселки Ракитянского и Краснояружского района.</h1>
-                <div class="page__text">
-                <p>На страницах данного сайта можно коснуться истории и быта трех поселков Ракитянского и Краснояружского района. Узнать расписание автобусов или вызвать такси, посмотреть доступные услуги местных специалистов. В скором времени будет добавлен виджет погоды.</p>
-                </div>
-                <h2 class="page__sub-title" align="center">Пролетарский (Готня)</h2>
-                <div class="page__text">
-                  <img class="wellcome_img" src="./img/page/gotnya.jpg" alt="Пролетарский (Готня)" draggable="false">
-                  <p><mark><b>
-                  Пролета́рский — посёлок городского типа в Ракитянском районе Белгородской области России, административный центр городского поселения «Посёлок Пролетарский».
-                  Население — 8 967 человек (2020).</b></mark></p>
-                  <p>Является центральным торговым хабом между тремя поселками: Ракитное, Пролетарский, Красная Яруга. Это означает, что здесь можно найти все необходимые товары и услуги населению, которые могут понадобиться в повседневной жизни.</p>
-                  <p>В поселке развита инфраструктура: есть множество различных магазинов, аптек, почта, СБЕР, школы и детские сады. Также на территории поселка работают мастерские, где можно заказать различные услуги.</p>
-                  <p>Пролетарский находится в живописной местности, окруженной лесами и полями. В его окрестностях достаточно мест для прогулок и катания на велосипедах. На территории поселка есть спортивные сооружения - футбольные поля, баскетбольная и волейбольная площадки и тренажерные площадки.</p>
-                </div>
-            </section>
-            <section class="page__section page__section_2">
-              <h2 class="page__sub-title" align="center">Красная Яруга</h2>
-                <div class="page__text">
-                  <img class="wellcome_img" src="./img/page/jaruga.jpg" alt="Красня-Яруга" draggable="false">
-                  <p><mark><b>Кра́сная Яру́га — посёлок городского типа в Белгородской области России, административный центр Краснояружского района и городского поселения «Посёлок Красная Яруга».
-                  Население — 7 885. человек (2020).</mark></b></p>
-                  <p>Красная Яруга - это небольшой поселок в Краснояружском районе Белгородской области. В котором находится один из действующих сахарных заводов ТМ PRODIMEX. Завод занимается производством высококачественного сахара из свеклы.</p>
-                  <p>Кроме того, в поселке Красная Яруга есть множество других магазинов и торговых точек, где можно приобрести все необходимое для комфортной жизни. Здесь можно купить свежие продукты, бытовую технику, одежду и многое другое.</p>
-                  <p>В поселке развитая транспортная инфраструктура, что делает его легко доступным для жителей соседних населенных пунктов. Здесь останавливаются пригородные автобусы (из Белгорода и Курска) и маршрутки, которые связывают Красную Яругу с другими населенными пунктами.</p>
-                </div>
-            </section>
-            <section class="page__section page__section_3">
-                <h2 class="page__sub-title" align="center">Ракитное</h2>
-                <div class="page__text">
-                    <img class="wellcome_img" src="./img/page/rakitnoe.jpg" alt="Раки́тное" draggable="false">
-                    <p><mark><b>Раки́тное — посёлок городского типа в Белгородской области России, административный центр Ракитянского района и городского поселения «Посёлок Ракитное».
-                    Население — 10 400 человек (2010).</mark></b></p>
-                    <P>Ракитное было основано в 1652 году и название получило по одноимённой реке. Служилые люди Русского царства Елизарий Яковлев и подьячий Зиновка Марков, проделав путь от устья реки Пены к Бакаеву шляху, реке Ворскле и далее,
-                      чтобы измерить расстояние и определить, в каких местах ставить остроги для защиты русских земель от набегов крымских татар, пришли к заключению: <mark>«Речка Ракитна, ржавец, и черезъ-тое речку переехать во многихъ местахъ мочно,
-                      поперег той речки десять сажень, а вода стоитъ озерками, и на речке Ракитне быть острогу».</mark></p><br>
-                      <p>Согласно наказу воеводы Бориса Репнина с позволения царя Алексея Михайловича был заложен Ракитный острог. Для укрепления острога в помощь московским служилым людям были присланы казаки (черкассы).
-                    </P>
-                </div>
-            </section>
-             </main>
-
-        <footer class="footer_wrapper">
-        <div class="line"></div>
-        <div class="social_ico_wrapper">
-        <a href="https://t.me/myGRK"><img class="social-ico" src="./img/social/Tel.svg" alt="telegram"></a>
-        <a href=""><img class="social-ico" src="./img/social/VK.svg" alt="VK"></a>
-        </div>
-        <p class="footer_p_wrapper">© 2023 Created by ...</p>
-        <!--<p class="footer_p_wrapper">P1L1GR1M dev</p>-->
-        </div>
-        </footer>
-
-    </div>
-    <script src="./js/script.js"></script>
+				<br>
+				<br>
+				<p>Lorem ipsum, dolor sit amet consectetur adipisicing, elit. Est rem, quas quod alias soluta facilis unde animi quibusdam, necessitatibus maiores modi, suscipit voluptates minima distinctio ipsum voluptatibus ut repellat. Aut consequuntur fugiat rerum possimus tenetur commodi, ex repudiandae autem ratione ipsum beatae quam sequi porro voluptate laboriosam vel fugit perferendis.</p>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing, elit. Voluptates vel iure iste? Dignissimos, quaerat nulla assumenda fugit quis rerum quidem perferendis, architecto ullam aspernatur necessitatibus.</p>
+			</div>
+		</section>
+	
+	</main>
+		<footer class="footer_container">
+			<div class="footer_wraper">
+				
+				<p>© 2022-<time datetime="2024">2024</time> Created by ...</P>
+			</div>
+		</footer>
+	</div>
 </body>
+<script defer src="js/main.js"></script>
 </html>
